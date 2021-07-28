@@ -6,7 +6,6 @@ const state = {
     isLoading: false,
     isCreating: false,
 }
-
 export const posts = writable(state);
 
 const actions = () => {
